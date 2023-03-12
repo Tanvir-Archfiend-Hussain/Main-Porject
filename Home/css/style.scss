@@ -5,9 +5,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-body {
-  background: url(https://igimages.gumlet.io/tamil/home/nayanthara091122_2.jpg?w=700&dpr=1.4);
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("https://igimages.gumlet.io/tamil/home/nayanthara091122_2.jpg?w=700&dpr=1.4"),
+    linear-gradient(rgba(0, 0, 0, 0.626), rgba(0, 0, 0, 0.649));
   background-size: initial;
 }
